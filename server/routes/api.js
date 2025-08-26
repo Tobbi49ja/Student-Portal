@@ -7,6 +7,9 @@ const router = express.Router();
 
 // Client Routes
 router.get('/login', (req, res) => {
+  res.sendFile(path.join(__dirname, '../../client', 'about', 'index.html'));
+});
+router.get('/login', (req, res) => {
   res.sendFile(path.join(__dirname, '../../client', 'Login', 'index.html'));
 });
 
