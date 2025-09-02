@@ -818,9 +818,9 @@ h2 {
   padding-bottom: 0.5rem;
 }
 
-.hover\:bg-opacity-90:hover {
+/* .hover\:bg-opacity-90:hover {
   background-opacity: 0.9;
-}
+} */
 
 .text-xl {
   font-size: 1.25rem;
