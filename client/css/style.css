@@ -412,7 +412,14 @@ margin-top: 1rem;
   gap: 1rem;
   justify-content: center;
 }
+  .media-adjust-flex{
 
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .media-flex-card{
+    flex-grow: 1;
+  }
 .social-btn {
   display: flex;
   align-items: center;
