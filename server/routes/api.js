@@ -6,7 +6,7 @@ const studentsController = require('../controllers/studentsController');
 const router = express.Router();
 
 // Client Routes
-router.get('/login', (req, res) => {
+router.get('/about', (req, res) => {
   res.sendFile(path.join(__dirname, '../../client', 'about', 'index.html'));
 });
 router.get('/login', (req, res) => {
