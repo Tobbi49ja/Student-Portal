@@ -73,10 +73,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 •	Inspired by modern web design principles.
 •	Thanks to the open-source community for tools like Node.js, MongoDB, and Font Awesome.
-________________________________________
-Notes
-•	Customization: Replace your-username with your GitHub username and update the repository URL. Add a LICENSE file if you haven’t already.
-•	Date Context: The README is current as of August 23, 2025, 03:42 PM WAT, but no specific date is hardcoded since it’s a general document.
-•	Content: It highlights the responsive fixes (scrollable tables, collapse/expand), your styling efforts, and the tech stack based on our discussions.
-•	Length: Kept concise per your "quick answer" preference, focusing on key aspects.
-
