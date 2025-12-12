@@ -32,7 +32,7 @@ body {
 
 .homebg {
   background-color: #000000;
-  background-image: url('/assert/Pics/HomeBg.jpg');
+  background-image: url("/assert/Pics/HomeBg.jpg");
   position: relative;
   min-height: 100vh;
   background-size: cover;
@@ -80,9 +80,9 @@ body {
   position: relative;
   z-index: 1;
 }
-.aboutbg{
+.aboutbg {
   background-color: #000000;
-  background: url('/assert/Pics/aboutbg.avif');
+  background: url("/assert/Pics/aboutbg.avif");
   position: relative;
   min-height: 100vh;
   background-size: cover;
@@ -249,20 +249,20 @@ header {
 .auth-card:hover {
   transform: translateY(-5px);
 }
-.abtbtnContain{
+.abtbtnContain {
   text-align: center;
 }
-.aboutbtn{
+.aboutbtn {
   text-decoration: none;
 }
 .auth-card h2 {
   margin-bottom: 1.5rem;
   font-size: 1.8rem;
 }
-.txt-centr{
+.txt-centr {
   text-align: center;
 }
-.color-pup{
+.color-pup {
   color: var(--primary-dark);
 }
 .form-group {
@@ -287,10 +287,10 @@ header {
   font-size: 1rem;
   transition: border-color 0.3s;
 }
-.light{
-    color: var(--light);
+.light {
+  color: var(--light);
 }
-.form-control-2{
+.form-control-2 {
   width: 100%;
   padding: 0.8rem 1rem;
   border-radius: 0.5rem;
@@ -308,7 +308,7 @@ header {
   color: transparent;
   position: relative;
   display: inline-block;
-
+  float: right;
   -webkit-text-fill-color: transparent;
 }
 .copywrite-color {
@@ -358,12 +358,12 @@ header {
     grid-template-columns: 1fr;
   }
 }
-.form-control-2:focus{
+.form-control-2:focus {
   outline: none;
 }
 select option {
   background-color: rgba(0, 0, 0, 0.7);
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .form-control:focus {
@@ -385,42 +385,42 @@ select option {
   color: var(--gray);
   font-size: 1.2rem;
 }
-.border-red{
+.border-red {
   border: 1px solid red;
 }
-.float-rigt{
+.float-rigt {
   float: right;
 }
-.chgpassmodel-box{
-  display:none; 
-  position:fixed; 
-  top:0; 
-  left:0; 
-  width:100%; 
-  height:100%; 
-  background:rgba(0,0,0,0.6); 
-  z-index:1000; 
-  justify-content:center; 
-  align-items:center;
+.chgpassmodel-box {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
 }
-.chgpassmodel-card{
-  background: rgba(26, 23, 23, 0.9); 
-  padding:20px; 
-  width:400px; 
-  border-radius:8px;
+.chgpassmodel-card {
+  background: rgba(26, 23, 23, 0.9);
+  padding: 20px;
+  width: 400px;
+  border-radius: 8px;
 }
-.chgpassmodel-card-2{
-  background: rgb(253, 251, 251, 0.9); 
-  padding:20px; 
-  width:400px; 
-  border-radius:8px;
+.chgpassmodel-card-2 {
+  background: rgb(253, 251, 251, 0.9);
+  padding: 20px;
+  width: 400px;
+  border-radius: 8px;
 }
 .toggle-password:hover {
   color: var(--primary);
 }
-.fa-eye,.fa-eye-slash{
-margin-top: 1rem;
-
+.fa-eye,
+.fa-eye-slash {
+  margin-top: 1rem;
 }
 .forgot-password {
   display: block;
@@ -430,7 +430,7 @@ margin-top: 1rem;
   text-decoration: none;
   font-size: 0.9rem;
 }
- 
+
 .forgot-password:hover {
   color: var(--primary);
 }
@@ -460,13 +460,13 @@ margin-top: 1rem;
   padding: 0 1rem;
   font-size: 0.9rem;
 }
-.blue{
+.blue {
   color: #1e40af;
 }
-.red-sp{
+.red-sp {
   color: #8b0000;
 }
-.green{
+.green {
   color: #16a34a;
 }
 
@@ -475,14 +475,13 @@ margin-top: 1rem;
   gap: 1rem;
   justify-content: center;
 }
-  .media-adjust-flex{
-
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .media-flex-card{
-    flex-grow: 1;
-  }
+.media-adjust-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.media-flex-card {
+  flex-grow: 1;
+}
 .social-btn {
   display: flex;
   align-items: center;
@@ -531,7 +530,7 @@ footer {
   font-size: 0.9rem;
 }
 
-@media(max-width: 1024px) {
+@media (max-width: 1024px) {
   .auth-container {
     width: 100%;
   }
@@ -554,30 +553,30 @@ footer {
   .auth-card {
     max-width: 100%;
   }
-  footer p{
+  footer p {
     color: var(--gray);
     font-weight: 600;
   }
 }
 
-@media(max-width:425px) {
-  .loginbg::before{
+@media (max-width: 425px) {
+  .loginbg::before {
     filter: blur(1px) brightness(0.5);
   }
-  .color-chng{
+  .color-chng {
     font-size: 14px;
   }
   .hero h1 {
     font-size: 1.3rem;
     color: whitesmoke;
   }
-  .hero p{
+  .hero p {
     font-weight: 600;
   }
-  .nav-links{
+  .nav-links {
     font-size: 12px;
   }
-  .loginbg{
+  .loginbg {
     background-attachment: scroll;
   }
   .auth-container {
@@ -589,27 +588,25 @@ footer {
   .float {
     position: relative;
   }
-  .disapper{
+  .disapper {
     margin-top: 0;
   }
-  .course-card{
+  .course-card {
     width: 300px;
   }
-  .media-adjust-flex{
-
+  .media-adjust-flex {
     display: flex;
     flex-wrap: wrap;
   }
-  .media-flex-card{
+  .media-flex-card {
     flex-grow: 1;
   }
-  .media-adjust-academic-progress{
+  .media-adjust-academic-progress {
     display: none;
   }
-  .text-algn{
+  .text-algn {
     text-align: center;
   }
-  
 }
 
 /* Profile Dashboard Styles */
@@ -653,13 +650,13 @@ footer {
   background-color: #ffffff;
 }
 
-
 .rounded-xl {
   border-radius: 0.75rem;
 }
 
 .shadow-md {
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
 .p-6 {
@@ -683,7 +680,9 @@ footer {
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.hidden { display: none; }
+.hidden {
+  display: none;
+}
 .btn-danger {
   background-color: red;
   color: white;
@@ -709,7 +708,7 @@ footer {
   position: absolute;
   bottom: 10px;
   right: 30px;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   color: white;
   border-radius: 50%;
   padding: 15px;
@@ -723,25 +722,25 @@ footer {
 .bg-indigo-100 {
   background-color: #e0e7ff;
 }
-.mt-2{
+.mt-2 {
   margin-top: 2rem;
 }
-.ml-2{
+.ml-2 {
   margin-left: 2rem;
 }
 .mb-4 {
   margin-bottom: 1rem;
 }
-.mb-5{
+.mb-5 {
   margin-bottom: 1.2rem;
 }
-.mb-7{
+.mb-7 {
   margin-bottom: 3rem;
 }
-.mb-8{
+.mb-8 {
   margin-bottom: 5rem;
 }
-.ml-ml{
+.ml-ml {
   margin-left: 12px;
 }
 .items-center {
@@ -905,7 +904,7 @@ h2 {
 
 .course-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .text-xs {
@@ -1079,9 +1078,7 @@ h2 {
 .mb-6 {
   margin-bottom: 1.5rem;
 }
-.mb
-
-.items-start {
+.mb .items-start {
   align-items: flex-start;
 }
 
@@ -1100,46 +1097,47 @@ h2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
-@media (max-width: 375px){
-  .color-chng{
+@media (max-width: 375px) {
+  .color-chng {
     font-size: 12px;
   }
   .hero h1 {
     font-size: 1.4rem;
   }
-  .logo{
+  .logo {
     font-size: 1rem;
   }
-  .password-wrapper{
+  .password-wrapper {
     width: 100%;
   }
-  .course-card{
+  .course-card {
     width: 255px;
   }
 }
-@media(max-width: 320px){
-  .color-chng{
+@media (max-width: 320px) {
+  .color-chng {
     font-size: 11px;
   }
-  .nav-links{
+  .nav-links {
     font-size: 10px;
   }
-  .form-control{
+  .form-control {
     font-size: 12px;
   }
-  .toggle-password{
+  .toggle-password {
     right: 0;
   }
-  .form-control-spc{
+  .form-control-spc {
     font-size: 0.8rem;
   }
-  .mb-2,.font-medium{
+  .mb-2,
+  .font-medium {
     font-size: 12px;
   }
-  .course-card{
+  .course-card {
     width: 200px;
   }
-  .text-sm{
+  .text-sm {
     font-size: 12px;
   }
 }
@@ -1150,7 +1148,7 @@ h2 {
     flex-direction: column;
     gap: 1rem;
     width: 100%;
-    padding: 0 0.5rem; 
+    padding: 0 0.5rem;
   }
 
   .course-card {
@@ -1162,54 +1160,52 @@ h2 {
   .progress-bar {
     position: relative;
     top: 2rem;
-  
   }
-  .media-b{
+  .media-b {
     margin-top: 1rem;
   }
-  .media-font{
+  .media-font {
     font-size: 14px;
   }
   .delete-course-btn {
     margin-left: 0.5rem;
   }
   .md\:grid-cols-2 {
-  grid-template-columns: 1fr; 
-}
-.media-adjustment{
-  margin-left: 1rem;
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
-.media-adjust-mb-5{
-  margin-bottom: 1.5rem;
-}
-table {
+    grid-template-columns: 1fr;
+  }
+  .media-adjustment {
+    margin-left: 1rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  .media-adjust-mb-5 {
+    margin-bottom: 1.5rem;
+  }
+  table {
     display: block;
     overflow-x: auto;
     white-space: nowrap;
   }
-  tbody{
+  tbody {
     gap: 3rem;
   }
 
-  footer p{
+  footer p {
     font-size: 10px;
   }
-
 }
-@media(max-width: 375px){
-  .media-adjustment{
+@media (max-width: 375px) {
+  .media-adjustment {
     margin-left: 0;
     margin-top: 0;
     margin-top: 1rem;
   }
 }
-@media(max-width: 320px){
-  .media-font{
+@media (max-width: 320px) {
+  .media-font {
     font-size: 12px;
   }
-  .progress-bar{
+  .progress-bar {
     top: 1.5rem;
   }
 }
