@@ -300,6 +300,64 @@ header {
   font-size: 1rem;
   transition: border-color 0.3s;
 }
+.glow-text {
+  font-weight: 800;
+  background: linear-gradient(90deg, #38bdf8 0%, #ffffff 50%, #38bdf8 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  position: relative;
+  display: inline-block;
+
+  -webkit-text-fill-color: transparent;
+}
+.copywrite-color {
+  color: #bcdfee;
+  font-weight: 100;
+}
+.subtle {
+  animation: gradientShift 3s ease-in-out infinite,
+    glowPulseSubtle 3s ease-in-out infinite;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes glowPulseSubtle {
+  0% {
+    text-shadow: 0 0 6px rgba(56, 189, 248, 0.6),
+      0 0 12px rgba(56, 189, 248, 0.25);
+    filter: drop-shadow(0 0 6px rgba(56, 189, 248, 0.15));
+  }
+  50% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.9),
+      0 0 20px rgba(255, 255, 255, 0.15);
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.08));
+  }
+  100% {
+    text-shadow: 0 0 6px rgba(56, 189, 248, 0.6),
+      0 0 12px rgba(56, 189, 248, 0.25);
+    filter: drop-shadow(0 0 6px rgba(56, 189, 248, 0.15));
+  }
+}
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .catalogue {
+    grid-template-columns: 1fr;
+  }
+}
 .form-control-2:focus{
   outline: none;
 }
